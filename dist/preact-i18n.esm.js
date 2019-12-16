@@ -322,7 +322,7 @@ function Text(ref, ref$1) {
 	var fields = ref.fields;
 	var intl = ref$1.intl;
 
-
+	console.log(id, plural, fields, intl);
 	var value = translate(
 		id,
 		intl && intl.scope,

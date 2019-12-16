@@ -40,7 +40,7 @@ import { HighlightI18N } from './highlight-i18n';
  *	"Le Feux"
  */
 export function Text({ id, children: fallback, plural, fields }, { intl }) {
-
+	console.log(id, plural, fields, intl)
 	let value = translate(
 		id,
 		intl && intl.scope,
